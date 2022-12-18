@@ -12,9 +12,7 @@ const DropdownComponent = (props) => {
                 {props.title}
             </Dropdown.Toggle>
             <Dropdown.Menu variant="dark">
-                <Dropdown.Item href="#/action-1" >
-                    Dropdown 1
-                </Dropdown.Item>
+                <Dropdown.Item href="#/action-1">Dropdown 1</Dropdown.Item>
                 <Dropdown.Item href="#/action-2">Dropdown 2</Dropdown.Item>
                 <Dropdown.Item href="#/action-3">Dropdown 3</Dropdown.Item>
             </Dropdown.Menu>

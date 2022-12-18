@@ -138,15 +138,33 @@ body {
 }
 
 /* .each--card { */
-  /* margin-left: 0px; */
+/* margin-left: 0px; */
 /* } */
 
 
-.trial{
+.trial {
   display: flex;
   flex-direction: row;
 
 }
+
+/* .loader {
+  animation: rotation 1.25s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+} */
 
 
 
@@ -154,7 +172,7 @@ body {
 
 @media (max-width :800px) {
   .cards--container {
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
 
     justify-content: space-evenly;
     justify-items: center;
@@ -165,7 +183,7 @@ body {
 
 @media (max-width :500px) {
   .cards--container {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
 
     justify-content: space-evenly;
     justify-items: center;
