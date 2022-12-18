@@ -45,7 +45,7 @@ const SearchComponent = ({getQuery}) => {
 
             <DropdownComponent title={"Duration"} />
             <DropdownComponent title={"Date Posted"} />
-            
+            {/* <DropdownComponent title={"Ratings"} /> */}
 
 
 
