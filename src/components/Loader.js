@@ -1,5 +1,5 @@
 import React from "react";
-import LoadImg from "../images/loader.png"
+ 
  
   
 
