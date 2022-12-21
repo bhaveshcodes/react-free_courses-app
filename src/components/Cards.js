@@ -18,7 +18,7 @@ const Cards = (props) => {
             // const fetchData = async () => {
             // const result1 = await axios(`https://courses-project-api.vercel.app/api?c=${props.searchQuery}`)
 //             const result = await axios(`https://course-mongo-db-api.vercel.app/api?s=${props.searchQuery}`)
-             const result = await axios(`https://course-mongo-db-api.vercel.app/api?s=${props.searchQuery}&d= `)
+             const result = await axios(`https://course-mongo-db-api.vercel.app/api?s=${props.searchQuery}&d=0+`)
             
             // console.log(query);
             console.log(result.data);
